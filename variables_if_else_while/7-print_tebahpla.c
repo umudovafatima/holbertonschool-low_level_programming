@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char kamal = 'z';
+	char fatima = 'z';
 
-	while (kamal >= 'a')
+	while (fatima >= 'a')
 	{
-		putchar(kamal);
-		kamal--;
+		putchar(fatima);
+		fatima--;
 	}
 	putchar('\n');
 	return (0);
