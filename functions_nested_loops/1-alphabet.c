@@ -8,10 +8,10 @@ void print_alphabet(void)
 {
 	char kamal = 'a';
 
-	while (kamal <= 'z')
+	while (salam <= 'z')
 	{
-		_putchar(kamal);
-		kamal++;
+		_putchar(salam);
+		salam++;
 	}
 	_putchar('\n');
 }
