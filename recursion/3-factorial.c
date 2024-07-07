@@ -1,26 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * factorial - check the code
+ * @n: - s
+ * Return: Always 0.
  */
-int main(void)
+int factorial(int n)
 {
-	char kicik = 'a';
-	char boyuk = 'A';
-
-	while (kicik <= 'z')
-	{
-		putchar(kicik);
-		kicik++;
-	}
-
-	while (boyuk <= 'Z')
-	{
-		putchar(boyuk);
-		boyuk++;
-	}
-	putchar('\n');
-	return (0);
+if (n < 0)
+{
+return (-1);
+}
+if (n <= 1)
+{
+return (1);
+}
+return (n * factorial(n - 1));
 }
