@@ -1,4 +1,3 @@
-
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +7,7 @@
  * @grid: - the address of the two dimensional grid
  * @height: - height of the grid
  *
- * Return: Nothing
+ * Return
  */
 void free_grid(int **grid, int height)
 {
