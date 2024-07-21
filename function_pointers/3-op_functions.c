@@ -1,4 +1,3 @@
-
 #include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,13 +34,26 @@ int op_mul(int a, int b)
 {
 return (a * b);
 }
+
+/**
+ * op_div - function that divides two integers
+ * @a: int1
+ * @b: int2
+ * Return: returns the division of a and b
+ */
 int op_div(int a, int b)
 {
 return (a / b);
 }
 
+/**
+* op_mod - function that finds reminder of  two integers
+* @a: int
+* @b: int
+* Return: returns the remainder of the division of a by b
+*/
+
 int op_mod(int a, int b)
 {
 return (a % b);
 }
-
